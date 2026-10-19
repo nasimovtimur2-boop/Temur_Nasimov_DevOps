@@ -1,0 +1,6 @@
+Name: Temur
+Surname: Nasimov
+Group: IT 2 2312
+Student ID: 31915
+Course: DevOps
+Email: 31915@iitu.edu.kz

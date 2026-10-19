@@ -1,0 +1,13 @@
+services:
+  student-app:
+    build: .
+    image: nasimov-temur-devops:latest
+    container_name: nasimov-temur-container
+    ports:
+      - "8080:8080"
+    environment:
+      STUDENT_NAME: ${STUDENT_NAME:-Temur}
+      STUDENT_SURNAME: ${STUDENT_SURNAME:-Nasimov}
+      STUDENT_GROUP: ${STUDENT_GROUP:-IT 2 2312}
+      STUDENT_ID: ${STUDENT_ID:-31915}
+    restart: unless-stopped
